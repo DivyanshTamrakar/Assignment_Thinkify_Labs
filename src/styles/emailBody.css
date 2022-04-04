@@ -1,0 +1,48 @@
+.bodyCard{
+    border: 1px solid #CFD2DC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: white;
+    
+}
+
+.bodyCard > .avatar{
+    height:100px;
+    width: 100px;
+    border-radius: 50px;
+    align-self: flex-start;
+}
+.Content{
+    align-self: flex-start;
+    margin-left: 15px;
+  }
+  
+
+.subject{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-weight: 700;
+    font-size: 35px;
+}
+.favoriteBtn{
+    border: 1px solid #CFD2DC;
+    padding: 5px 10px;
+    border-radius: 20px;
+    align-self: center;
+}
+.Colredfavorite{
+    border: 1px solid #E54065;
+    background-color: #E54065;
+    
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    align-self: center;
+}
+

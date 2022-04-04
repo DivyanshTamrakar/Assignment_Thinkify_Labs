@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+body{
+  /* margin: 20px 50px 10px 40px; */
+  background-color: #F4F5F9;
+  color: #636363;
+}
+.HomeLayout{
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  margin: 20px 50px 10px 40px;
+}
+            
+.chips{
+  font-weight: 400;
+  margin-left: 25px;
+  color: black;
+  cursor: pointer;
+}
+
+.colorChips{
+  border: 1px solid #Cfd2dc;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: #E1E5EA;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
